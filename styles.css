@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&display=swap');
+
+body {
+    width: 375px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #333333;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+p {
+    margin-left: 34px;
+    margin-right: 29px;
+}
+
+.head {
+    background-image: url("https://cdn.tourcms.com/a/11676/1194/1/default.jpg");
+    color: #FFFFFF;
+    height: 275px;
+    padding-top: 36px;
+}
+.head h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+.head h2{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 50px;
+}
+.head h3{
+    font-size: 13px;
+    font-weight: 400;
+}
+.head h4{
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 41px;
+}
+
+.about {
+    background: #FFFFFF;
+    height: 335px;
+}
+
+.skills {
+    background-color: #FFFAF2;
+    height: 617px;
+}
+
+.portfolio {
+    background-color: #FFFFFF;
+    height: 404px;
+}
+
+.portfolio h2{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.links {
+    background-color: #FFFAF2;
+    height: 360px;
+}
