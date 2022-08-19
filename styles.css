@@ -23,7 +23,6 @@ h5 {
 h6 {
     font-weight: 400;
     font-size: 12px;
-    padding-left: 30px;
 }
 p {
     margin-left: 26px;
@@ -44,21 +43,32 @@ p {
     height: 275px;
     width: 375px;
     text-align: center;
+    position: relative;
+    overflow: hidden;
 }
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(198, 108, 73, 0.3);
+}
+
 .burger {
     position: absolute;
-    left: 42px;
-    top: 55px;
+    left: 34px;
+    top: 44px;
 }
 .head h1{
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
-    padding-top: 26px;
+    padding-top: 24px;
 }
 .head h2{
     font-size: 20px;
     font-weight: 400;
-    padding-top: 26px;
+    padding-top: 33px;
 }
 .head h3{
     font-size: 13px;
@@ -81,6 +91,10 @@ p {
     background-color: #FFFAF2;
     grid-template-rows: auto;
     grid-auto-columns: auto;
+    padding-bottom: 5px;
+}
+.skills h1 {
+    padding-bottom: 8px;
 }
 
 .skills-lvl {
@@ -93,17 +107,41 @@ p {
 
 .skills-lvl div {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     float: left;
     justify-content: space-between;
 }
 
-.skills h1 {
-    padding-top: 8px;
-    padding-bottom: 14px;
+.some-1 {
+    padding-bottom: 8px;
+}
+
+.some {
+    height: 30px;
+}
+.some-tools {
+    height: 30px;
+    padding-bottom: 17px;
+}
+
+.some h6 {
+    margin: 0;
+}
+.some h5 {
+    margin: 0;
+}
+.h6-1 {
+    padding-right: 30px;
+}
+.h6-2 {
+    padding-right: 30px;
+}
+.h6-3 {
+    padding-right: 95px;
 }
 
 .skills-image {
+    display: block;
     margin-left: 72px;
 }
 
@@ -124,13 +162,22 @@ p {
     grid-template-rows: auto;
     align-items: center;
     text-align: center;
+    padding-bottom: 12px;
+}
+
+.portfolio h1 {
+    padding-top: 10px;
+    padding-bottom: 6px;
 }
 
 .portfolio h2{
     font-size: 14px;
     font-weight: 500;
+    padding-bottom: 5px;
 }
-
+.portfolio p {
+    padding-bottom: 8px;
+}
 .portfolio img{
     display: flex;
     padding: 6px;
@@ -143,13 +190,14 @@ p {
     background-color: #FFFAF2;
     grid-template-rows: auto;
     grid-auto-columns: auto;
+    padding-bottom: 20px;
 }
 .links p {
     padding-left: 10px;
 }
 .links div {
     display: inline-table;
-    padding-left: 34px;
+    padding-left: 28px;
 }
 a {
     text-decoration: none;
@@ -162,15 +210,19 @@ a {
 .email {
     font-size: 14px;
     padding-top: 20px;
+    padding-bottom: 7px;
     margin: 0;
+    height: 14px;
 }
 .number {
     font-size: 12px;
-    padding-bottom: 50px;
     margin: 0;
+    padding-top: 0;
+    height: 12px;
 }
 .links-bird{
-    position: absolute;
-    right: 30px;
-   top: 1800px;
+    position: relative;
+    display: block;
+    left: 319px;
+    bottom: 42px;
 }
