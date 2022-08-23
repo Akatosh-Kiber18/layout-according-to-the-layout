@@ -1,0 +1,301 @@
+@media only screen and (min-width: 425px) {
+    .header-container {
+        min-height: 320px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .menu h6 {
+        display: none;
+    }
+
+    .links-bird2x {
+        display: none;
+    }
+
+    .email-number {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1439px) {
+    .big-images {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px ) {
+    h6 {
+        margin: 0;
+        font-weight: 400;
+        font-size: 12px;
+        justify-content: space-between;
+    }
+
+    h1 {
+        font-weight: 700;
+        padding-right: 42%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    h2 {
+        font-size: 32px;
+        font-weight: 400;
+        padding-top: 28px;
+        margin: 0;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 12px;
+        padding-top: 7%;
+    }
+
+    .header-container {
+        min-height: 576px;
+        background-image: url("../img/bg.jpg");
+        text-align: left;
+    }
+
+    .burger {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        padding: 4% 7.4% 7%;
+    }
+
+    .menu-links {
+        display: inline;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    #home {
+        font-size: 12px;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .header-headers {
+        padding-left: 7.4%;
+        padding-right: 7.4%;
+    }
+
+    .about {
+        padding: 3% 5% 7.4%;
+        text-align: left;
+    }
+
+    .skills {
+        padding: 3% 7.4%;
+        text-align: left;
+    }
+
+    .big-skills-pairs {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .skills-lvl {
+        display: block;
+        width: 52%;
+    }
+
+    .skills img {
+        width: 36%;
+        height: 34%;
+    }
+
+    .portfolio {
+        text-align: left;
+        padding: 3% 7.4% 7.4%;
+    }
+
+    .portfolio h2 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .portfolio p {
+        padding-bottom: 28%;
+    }
+
+    .links-bird2x {
+        display: flex;
+        margin: 62px;
+    }
+
+    .portfolio-text-image {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .portfolio-text {
+        display: flex;
+        flex-wrap: wrap;
+        width: 31.5%;
+    }
+
+    .links {
+        text-align: left;
+        padding: 3% 7.4% 7.4%;
+    }
+    .links a {
+        font-size: 18px;
+    }
+
+    .small-email {
+        display: none;
+    }
+    .small-number {
+        display: none;
+    }
+
+    .email-number {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .email {
+        font-size: 18px;
+        padding-top: 0;
+        margin: 0;
+    }
+    .number {
+        font-size: 14px;
+        padding-top: 1.5%;
+    }
+
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .menu {
+        padding-left: 11.4%;
+        padding-right: 11.4%;
+    }
+
+    .header-container {
+        min-height: 576px;
+    }
+
+    .header-headers {
+        padding-left: 11.4%;
+        padding-right: 11.4%;
+    }
+
+    h6 {
+        font-size: 14px;
+    }
+
+    #home {
+        font-size: 14px;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 46px;
+        font-weight: 400;
+        padding-top: 28px;
+        margin: 0;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .about {
+        padding-left: 11.4%;
+        padding-right: 11.4%;
+    }
+
+    .skills {
+        padding: 3.4% 11.4%;
+    }
+
+    .skills img {
+        width: 36%;
+        height: 34%;
+    }
+
+    .skills h1 {
+        padding-bottom: 6%;
+    }
+
+    .portfolio {
+        padding: 3.4% 11.4%;
+    }
+
+    .links {
+        padding-left: 11.4%;
+        padding-right: 11.4%;
+    }
+
+}
+
+@media only screen and (min-width: 1440px) {
+    .header-container {
+        min-height: 768px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    #home {
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 64px;
+        font-weight: 400;
+        padding-top: 28px;
+        margin: 0;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    .skills img {
+        width: 28.5%;
+        height: 26.5%;
+    }
+
+    .small-images {
+        display: none;
+    }
+
+    .portfolio img {
+        padding: 13px;
+    }
+}

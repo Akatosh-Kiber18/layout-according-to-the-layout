@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #333333;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+p {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: justify;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 19px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 28px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 15px;
+    margin: 0;
+}
+
+h4 {
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 22px;
+    padding-bottom: 40px;
+    text-decoration: underline;
+}
+
+h5 {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+h6 {
+    margin: 0;
+    width: 68%;
+    text-align: left;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.main-container {
+    margin: 0 auto;
+    max-width: 1440px;
+    min-width: 375px;
+}
+
+.header-container {
+    display: flex;
+    background-image: url("../img/smallBg.jpg");
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+}
+
+.overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(198, 108, 73, 0.4);
+}
+
+.header-container h1 {
+    font-weight: 700;
+    font-size: 24px;
+    font-style: normal;
+    padding-top: 38px;
+}
+
+.burger {
+    position: absolute;
+    width: 24px;
+    height: 14px;
+    left: 34px;
+    top: 45px;
+}
+
+.header-headers {
+}
+
+.about {
+    padding-right: 8%;
+    padding-left: 9%;
+    text-align: center;
+}
+
+.skills {
+    background-color: #FFFAF2;
+    text-align: center;
+    padding-right: 8%;
+    padding-left: 9%;
+    padding-bottom: 16px;
+}
+
+.skills img {
+    width: 224px;
+    height: 218px;
+}
+
+.bar {
+    background-color: #F5D6AB;
+    margin-top: 0;
+    height: 18px;
+    width: 68%;
+}
+
+.bar-filler {
+    background-color: #C66C49;
+    height: 100%;
+    width: 50%;
+}
+
+.skills-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 11%;
+    padding-bottom: 18px;
+}
+
+.skills-line h5 {
+}
+
+.skills-pairs1 {
+    padding-top: 26px;
+    padding-bottom: 28px;
+}
+
+.skills-pairs {
+    padding-bottom: 5px;
+}
+
+.portfolio {
+    align-items: center;
+    text-align: center;
+    padding-right: 6%;
+    padding-left: 7%;
+    padding-bottom: 4%;
+}
+
+.portfolio h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 0;
+    padding-bottom: 8px;
+    margin: 0;
+}
+
+.portfolio img {
+    display: flex;
+    padding: 6px;
+}
+
+.portfolio-image div {
+    display: inline-block;
+}
+
+.portfolio p {
+    padding-left: 5px;
+    padding-bottom: 8px;
+}
+
+.links {
+    align-items: center;
+    text-align: center;
+    background-color: #FFFAF2;
+    padding-right: 8%;
+    padding-left: 9%;
+}
+
+.links a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    padding: 10px;
+}
+.links-columns {
+    display: flex;
+    padding-bottom: 20px;
+}
+.links-columns div {
+    width: 50%;
+}
+.small-email {
+    font-size: 14px;
+    margin: 0;
+    height: 14px;
+    padding-left: 15px;
+    padding-top: 14px;
+}
+.small-number {
+    font-size: 12px;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.links-bird{
+    display: flex;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 91%;
+    bottom: 53px;
+}
