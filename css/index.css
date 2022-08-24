@@ -63,7 +63,6 @@ h6 {
 
 .main-container {
     margin: 0 auto;
-    max-width: 1440px;
     min-width: 375px;
 }
 
@@ -205,19 +204,7 @@ h6 {
 .links-columns div {
     width: 50%;
 }
-.small-email {
-    font-size: 14px;
-    margin: 0;
-    height: 14px;
-    padding-left: 15px;
-    padding-top: 14px;
-}
-.small-number {
-    font-size: 12px;
-    margin: 0;
-    padding-top: 10px;
-    padding-left: 15px;
-}
+
 .links-bird{
     display: flex;
     position: relative;

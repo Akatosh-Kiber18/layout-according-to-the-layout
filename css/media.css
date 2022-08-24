@@ -1,6 +1,33 @@
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 @media only screen and (min-width: 425px) {
     .header-container {
         min-height: 320px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .links-columns {
+        flex-wrap: wrap;
+    }
+    .email-number {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .number {
+        font-size: 12px;
+    }
+    .email {
+        font-size: 14px;
+    }
+    .email-number p {
+        margin: 0;
+        padding-left: 10px;
+        padding-top: 5px;
     }
 }
 
@@ -13,9 +40,6 @@
         display: none;
     }
 
-    .email-number {
-        display: none;
-    }
 }
 
 @media only screen and (max-width: 1439px) {
@@ -35,7 +59,7 @@
     h1 {
         font-weight: 700;
         padding-right: 42%;
-        padding-top: 5%;
+        padding-top: 3%;
         padding-bottom: 5%;
     }
 
@@ -152,13 +176,6 @@
         font-size: 18px;
     }
 
-    .small-email {
-        display: none;
-    }
-    .small-number {
-        display: none;
-    }
-
     .email-number {
         display: flex;
         flex-direction: column;
@@ -229,7 +246,7 @@
     }
 
     .skills {
-        padding: 3.4% 11.4%;
+        padding: 3.4% 11.4% 5%;
     }
 
     .skills img {
@@ -242,7 +259,7 @@
     }
 
     .portfolio {
-        padding: 3.4% 11.4%;
+        padding: 3.4% 11.4% 5%;
     }
 
     .links {
@@ -284,6 +301,11 @@
 
     h4 {
         font-size: 18px;
+    }
+
+    .skills {
+     display: block;
+
     }
 
     .skills img {
